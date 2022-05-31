@@ -30,6 +30,7 @@ public class RegisterServlet extends HttpServlet{
 		dispatcher.forward(req, resp);
 	}
 	
+	
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// 1. 요청 데이터 읽기
@@ -53,7 +54,7 @@ public class RegisterServlet extends HttpServlet{
 		
 		// 3. 로그인 화면으로 이동 (redirect)
 		resp.sendRedirect("/demoweb/account/login.action");
-			
+		System.out.println("하이루");
 	}
 
 	
