@@ -22,6 +22,7 @@ public class HomeServlet extends HttpServlet{
 		// 4. 응답컨텐츠 생산을 위해 JSP로 이동 (forward)
 		RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/views/home.jsp");
 		dispatcher.forward(req, resp);
-		System.out.println("테스트 중");
+		System.out.println("테스트 중 입니다");
+		System.out.println("테스트 중2");
 	}
 }
