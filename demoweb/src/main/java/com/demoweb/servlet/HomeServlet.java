@@ -26,7 +26,7 @@ public class HomeServlet extends HttpServlet{
 		System.out.println("테스트 중 입니다");
 		System.out.println("테스트 중2");
 		System.out.println("테스트 중2");
-		System.out.println("테스트 중2");
+		System.out.println("테스트 중");
 
 =======
 		System.out.println("테스트 중");
