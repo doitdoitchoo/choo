@@ -22,7 +22,12 @@ public class HomeServlet extends HttpServlet{
 		// 4. 응답컨텐츠 생산을 위해 JSP로 이동 (forward)
 		RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/views/home.jsp");
 		dispatcher.forward(req, resp);
+<<<<<<< HEAD
 		System.out.println("테스트 중 입니다");
 		System.out.println("테스트 중2");
+=======
+		System.out.println("테스트 중");
+		System.out.println("테스트3");
+>>>>>>> branch 'main' of https://github.com/doitdoitchoo/choo.git
 	}
 }
